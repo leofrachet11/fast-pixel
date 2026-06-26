@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast-pixel"
+version = "1.0.1"
+authors = [{ name = "Leo Frachet", email = "leofrachet1@gmail.com" }]
+description = "A highly optimised, cross-platform mouse position and pixel color reader"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = ["pyobjc>=9.0; sys_platform == 'darwin'"]
