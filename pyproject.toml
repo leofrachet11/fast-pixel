@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fast-pixel"
-version = "1.0.1"
+version = "1.1.0"
 authors = [{ name = "Leo Frachet", email = "leofrachet1@gmail.com" }]
 description = "A highly optimised, cross-platform mouse position and pixel color reader"
 readme = "README.md"
